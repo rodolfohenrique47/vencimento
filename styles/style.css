@@ -1,0 +1,70 @@
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-size: 100%;
+    background: linear-gradient(to right, #3e4095,#009639, #ffcc29);
+    font-size: 1.5em;
+}
+/* TABLE */
+table {
+    border-collapse: collapse; 
+    margin: 2em auto;
+    background-color: #ffffff;
+    box-shadow: 0.5em 0.5em 0.5em rgba(0,0,0,0.2);
+    border: 0.09em solid #ffffff;
+    border-radius: 0.1em;
+    overflow: hidden;
+}
+/* TH e TD */
+th, td {
+    text-align: center;
+    padding: 0.5em;
+}
+/* TH */
+th {
+    color: #ffffff;
+    background-color: #000000;
+    font-weight: 600;
+}
+/* LINHA COR CINZA */
+.tabela__corpo__linha__corfundo__cinza {
+    background-color: rgb(209, 199, 199);
+}
+/* MEDIA QUERY */
+@media screen and (max-width: 578px) {
+    table {
+        font-size: 0.9em;
+    }
+}
+@media screen and (max-width: 518px) {
+    table {
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width: 460px) {
+    table {
+        font-size: 0.6em;
+    }
+}
+@media screen and (max-width: 344px) {
+    table {
+        font-size: 0.5em;
+    }
+}
+@media screen and (max-width: 288px) {
+    table {
+        font-size: 0.4em;
+    }
+}
+@media screen and (max-width: 228px) {
+    table {
+        font-size: 0.3em;
+    }
+}
